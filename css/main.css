@@ -53,7 +53,6 @@ span.icon-minus{
     width: 40px;
     z-index: 4;
     text-align: center;
-    /*background: rgba(251, 251, 251, 0.34);*/
 }
 
 .social-net a{
@@ -67,6 +66,7 @@ span.icon-minus{
     font-size: 1.5rem;
     color: #fff;
     z-index: 301;
+    cursor: pointer;
 }
 
 .open{
@@ -88,6 +88,10 @@ span.icon-minus{
 
 a.line{
     color: #fff;
+}
+
+a{
+    cursor:pointer;
 }
 
 a.line:hover{
@@ -128,6 +132,7 @@ div#open{
 .sk{
     padding-top: 4vh;
 }
+
 .who, .sk, .contact{
     font-size: 1.1rem;
     font-family: Original by fnkfrsh;
@@ -138,6 +143,7 @@ div#open{
 .who{
     padding-right: 4vh;
 }
+
 .port{
     color: #fff;
     padding-top: 15vh;
@@ -148,21 +154,25 @@ div#open{
 .letras{
     font-size: 2rem;
 }
+
 .t-who p{
     padding: 0vh 3vh;
     text-align: justify;
 }
+
 .skills{
     padding-top: 15vh;
     text-align: center;
     padding-bottom: 5vh;
    /* background:#181531;*/
 }
+
 .contact-section{
     padding-top: 12vh;
     text-align: center;
     padding-bottom: 12vh;
 }
+
 span.call{
     font-size: 1.8rem;
 }
@@ -174,6 +184,7 @@ span.call{
 .cv-button a.btn:hover{
     background-color: #321117;
 }
+
 .lista h4{
     padding-bottom: 4vh;
     font-family: Original by fnkfrsh;
@@ -183,10 +194,10 @@ span.call{
     font-size: 1.1rem;
 }
 
-
 .modal-content{
     color:#545454;
 }
+
 .modal-footer{
     height: 32px !important;
     text-align: right;
@@ -202,17 +213,21 @@ span.call{
     padding:0;
     margin: 0;
 }
+
 .portfolio div.col{
     padding:0 !important;
 }
+
 .portfolio div div div{
     background-size: cover;
     height: 50vh;
 }
+
 .julliard{
     background: url(../img/julliard.jpg);;
     background-position-x: 30%;
 }
+
 .portafolio{
      background-image: url(../img/portafolio.jpg);
      background-position-x: 50%;
@@ -222,6 +237,7 @@ span.call{
      background-image: url(../img/user-testing.jpg);
      background-position-x: 50%;
 }
+
 .twitter{
      background-image: url(../img/twitter.jpg);
      background-position-x: 30%;
@@ -393,7 +409,16 @@ span.call{
     opacity:2;
 }
 /*FIN OSCURECER IMG*/
+
 .footer{
     background:#321117;
     padding:1vh;
+}
+div.remodal{
+    background: #dadada;
+    color: ;
+}
+
+div.remodal-overlay{
+    background:rgba(56, 23, 28, 0.82);
 }
