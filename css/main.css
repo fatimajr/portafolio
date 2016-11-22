@@ -422,3 +422,7 @@ div.remodal{
 div.remodal-overlay{
     background:rgba(56, 23, 28, 0.82);
 }
+
+div.remodal p{
+    text-align: justify;
+}
