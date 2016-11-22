@@ -69,19 +69,19 @@ span.icon-minus{
     cursor: pointer;
 }
 
-.open{
+.show{
     visibility: visible;
     transform: scale(1.2,1.2);
 }
 
-.close{
+.hide{
     visibility: hidden;
 }
 
 .nav-list{
     font-size: 4.2rem;
     text-align: center;
-    top: 3vh;
+    top: 1vh;
     font-family: Original by fnkfrsh;
     position: relative;
 }
@@ -99,7 +99,7 @@ a.line:hover{
     color:#9b4351;
 }
 
-div#open{
+div#menu{
     background-color: rgba(56, 22, 22, 0.96);
     position: fixed;
     z-index: 300;
@@ -107,7 +107,7 @@ div#open{
     transition: all .3s;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .arrow-b {
@@ -168,9 +168,9 @@ div#open{
 }
 
 .contact-section{
-    padding-top: 12vh;
+    padding-top: 6vh;
     text-align: center;
-    padding-bottom: 12vh;
+    padding-bottom: 6vh;
 }
 
 span.call{
@@ -425,4 +425,42 @@ div.remodal-overlay{
 
 div.remodal p{
     text-align: justify;
+}
+
+div.remodal h3{
+    font-family: Original by fnkfrsh;
+}
+
+.language{
+    position: absolute;
+    left: 4vh;
+    bottom: 7vh;
+    font-size: 1.2rem;
+    font-family: Original by fnkfrsh;
+}
+
+div.language a{
+    color: #fff;
+}
+
+@media (max-width: 589px){
+    .menubar{
+        color: #66232c;
+    }
+    .who, .sk, .port, .contact{
+        padding: 0vh 4vh;
+    }
+    .letras{
+        font-size: 1.6rem
+    }
+    .arrow-b span{
+        color: #fff;
+    }
+    .language{
+        position: absolute;
+        left: 4vh;
+        bottom: 9vh;
+        font-size: 1.2rem;
+        font-family: Original by fnkfrsh;
+    }
 }
