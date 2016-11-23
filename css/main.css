@@ -9,7 +9,6 @@ body{
     background-size: cover;
     color: #fff;
     height: 100vh;
-/*    background-attachment: fixed;*/
 }
 
 .intro div.col{
@@ -32,7 +31,7 @@ span.icon-minus{
     left: 0vh;
     top: 20vh;
     font-family: Original by fnkfrsh;
-    padding-bottom: 2vh;
+    padding: 1vh 0vh;
 }
 .name span{
     font-size: 5.8rem;
@@ -170,7 +169,7 @@ div#menu{
 .contact-section{
     padding-top: 6vh;
     text-align: center;
-    padding-bottom: 6vh;
+    padding-bottom: 10vh;
 }
 
 span.call{
