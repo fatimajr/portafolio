@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/png" href="img/favicon-logo.png"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/vendor/materialize.css">
-	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/icomoon.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
-	<link href="css/vendor/hover.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" media="all" href="css/vendor/hover.css">
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<link rel="stylesheet" href="css/vendor/remodal/remodal.css">
 	<link rel="stylesheet" href="css/vendor/remodal/remodal-default-theme.css">
@@ -65,9 +65,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="about " id="about">
+	<div class="about" id="about">
 		<div class="who moveUp">
-			<img class="responsive-img" src="img/who1.png" alt="">
+			<img class="responsive-img" src="img/who.png" alt="">
 		</div>
 		<div class="row">
 			<div class="col s12 m8 l8 push-m2 push-l2">
@@ -85,7 +85,7 @@
 
 	<div class="skills" id="skills">
 		<div class="sk">
-			<img class="responsive-img" src="img/skills1.png" alt="">
+			<img class="responsive-img" src="img/skills.png">
 		</div>
 		<div class="lista fadeUp">
 			<div class="container">
@@ -95,8 +95,8 @@
 						<div class="development">
 							<h4>development</h4>
 							<ul>
-								<li><a data-remodal-target="modal1">Front end Development</a></li>
-								<li><a data-remodal-target="modal2">Responsive Design</a></li>
+								<li>Front end Development</li><a data-remodal-target="modal1"><span class="icon-square-plus hvr-shrink"></span></a><br>
+								<li>Responsive Design</li><a data-remodal-target="modal2"><span class="icon-square-plus hvr-shrink"></span></a>
 							</ul>
 						</div>
 					</div>
@@ -104,17 +104,17 @@
 						<div class="design">
 							<h4>design</h4>
 							<ul>
-								<li><a data-remodal-target="modal3">Graphic Design</a></li>
-								<li><a data-remodal-target="modal4">Editorial Design</a></li>
+								<li>Graphic Design</li><a data-remodal-target="modal3"><span class="icon-square-plus hvr-shrink"></span></a><br>
+								<li>Editorial Design</li><a data-remodal-target="modal4"><span class="icon-square-plus hvr-shrink"></span></a><br>
 							</ul>
 						</div>
 					</div>
 					<div class="col s12 m4 l4">
 						<div class="others">
-							<h4>others</h4>
+							<h4>plus</h4>
 							<ul>
-								<li><a data-remodal-target="modal5">Agile Methodology</a></li>
-								<li><a data-remodal-target="modal6">English Language</a></li>
+								<li>Agile Methodology</li><a data-remodal-target="modal5"><span class="icon-square-plus hvr-shrink"></span></a><br>
+								<li>English Language</li><a data-remodal-target="modal6"><span class="icon-square-plus hvr-shrink"></span></a><br>
 							</ul>
 						</div>
 					</div>
@@ -127,8 +127,8 @@
 		<button data-remodal-action="close" class="remodal-close"></button>
 			<h3>Front end development</h3>
 			<p>
-			 This is the world I have been in for the last 6 months, and the world I will remain in. I will continue my journey, learning and improving. This web is a small sample of what I want to create. My next goal: become a UX/UI Designer. </p>
-			<span class="icon-code"></span><span>HTML5</span>  <span>CSS3</span> <span>Javascript</span> <span>jQuery</span>
+			 This is the world I have been in for the last 6 months, and the world I will remain in. I will continue my journey, learning and improving. This web is a small sample of what I capable to create. My next goal: become a UX/UI Designer.</p>
+			<span class="icon-code"></span><span>HTML5   CSS3   Javascript   jQuery</span>
 		<br>
 	</div>
 	<!-- Modal responsive design -->
@@ -146,7 +146,7 @@
 			<h3>Graphic design</h3>
 			<p>
 			Design is everywhere and exists to communicate ideas in a different way, breaking with the usual designs and achieving unique ones. Working to achieve this has become my passion.</p>
-			<span class="icon-device-desktop"></span> <span>Adobe Photoshop</span> <span>| Illustrator</span>
+			<span class="icon-device-desktop"></span> <span>Adobe Photoshop</span> <span>| Adobe Illustrator</span>
 		<br>
 	</div>	
 	<!-- Modal editorial design -->
@@ -177,15 +177,13 @@
 	
 	<div class="port-section" id="work">
 		<div class="port moveUp">
-			<img class="responsive-img" src="img/work2.png" alt="">
+			<img class="responsive-img" src="img/work.png" alt="">
 			<h5>WEB DEVELOPMENT & GRAPHIC DESIGN PROJECTS</h5>
 			<span class="icon-minus"></span>
 		</div>
-		
-
 		<div class="portfolio">
 			<div class="row">
-				<a href="https://fatimajr.github.io/julliard/" target="_blank">
+				<a data-remodal-target="modal7">
 					<div id="show-hover" class="col s12 m4 l4">
 						<div class="julliard"></div>
 						<p class="text">Julliard Website</p> 
@@ -196,7 +194,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="https://fatimajr.github.io/portafolio/" target="_blank">
+				<a data-remodal-target="modal8">
 					<div id="show-hover" class="col s12 m4 l4">
 						<div class="portafolio"></div>
 						<p class="text">Portafolio website</p>
@@ -207,7 +205,7 @@
 						</div>	
 					</div>
 				</a>
-				<a href="https://fatimajr.github.io/user-testing/" target="_blank">
+				<a data-remodal-target="modal9">
 					<div id="show-hover" class="col s12 m4 l4">
 						<p class="text">User testing 360 website</p>
 						<div class="user-testing"></div>
@@ -220,7 +218,7 @@
 				</a>
 			</div>
 			<div class="row">
-				<a href="https://fatimajr.github.io/eventos-twitter/" target="_blank">
+				<a data-remodal-target="modal10">
 					<div id="show-hover" class="col s12 m4 l4">
 						<div class="twitter"></div>
 						<p class="text">Twitter</p>	
@@ -232,7 +230,7 @@
 						</div>			
 					</div>
 				</a>
-				<a href="https://fatimajr.github.io/eventos-js-trello/" target="_blank">
+				<a data-remodal-target="modal11">
 					<div id="show-hover" class="col s12 m4 l4">
 						<div class="trello"></div>
 						<p class="text">Trello</p>	
@@ -244,7 +242,7 @@
 						</div>	
 					</div>
 				</a>
-				<a href="https://fatimajr.github.io/lyft-app/" target="_blank">
+				<a data-remodal-target="modal12">
 					<div id="show-hover" class="col s12 m4 l4">
 						<div class="lyft"></div>
 						<p class="text">Lyft</p>
@@ -278,10 +276,64 @@
 				</a>
 			</div>
 		</div>
+		<!-- Modal Julliard -->
+		<div class="remodal" data-remodal-id="modal7" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>julliard website</h3>
+				<p>One of the firsts web layout projects developed during the bootcamp in Laboratoria, where I researched about the use of grid for a better structure. Web site of 4 pages developed with HTML5, CSS3 and a grid system named "Simple Grid".</p>
+				<a class="waves-effect waves-light btn" href="https://github.com/fatimajr/julliard" target="_blank"><span class="icon-code"></span> Code</a>
+  				<a class="waves-effect waves-light btn" href="http://bit.ly/Julliard-web" target="_blank"><span class="icon-device-desktop"></span> Web Site</a>
+			<br>
+		</div>
+		<!-- Modal web-portafolio -->
+		<div class="remodal" data-remodal-id="modal8" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>web portafolio</h3>
+				<p>I developed this portfolio landing page as a part of my learning on the most popular framework, Bootstrap. Developed with HTML5, CSS3 and Bootstrap.</p>
+				<a class="waves-effect waves-light btn" href="https://github.com/fatimajr/web-portafolio" target="_blank"><span class="icon-code"></span> Code</a>
+  				<a class="waves-effect waves-light btn" href="https://fatimajr.github.io/web-portafolio/" target="_blank"><span class="icon-device-desktop"></span> Web Site</a>
+			<br>
+		</div>
+		<!-- Modal user-testing -->
+		<div class="remodal" data-remodal-id="modal9" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>user testing</h3>
+				<p>In this project I learned how to use breakpoints for responsive design and as result, generate the best user experience in any device. Developed with HTML5, CSS3 and Bootstrap.</p>
+				<a class="waves-effect waves-light btn" href="https://github.com/fatimajr/user-testing" target="_blank"><span class="icon-code"></span> Code</a>
+  				<a class="waves-effect waves-light btn" href="https://fatimajr.github.io/user-testing/" target="_blank"><span class="icon-device-desktop"></span> Web Site</a>
+			<br>
+		</div>
+		<!-- Modal twitter -->
+		<div class="remodal" data-remodal-id="modal10" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>twitter</h3>
+				<p>First project developed with Vanilla JavaScript. This project is a basic replica and simulation of a tweet, showing the message, hour and number of characters. Developed with HTML5, CSS3, Bootstrap and vanilla JS.</p>
+				<a class="waves-effect waves-light btn" href="https://github.com/fatimajr/eventos-twitter" target="_blank"><span class="icon-code"></span> Code</a>
+  				<a class="waves-effect waves-light btn" href="https://fatimajr.github.io/eventos-twitter/" target="_blank"><span class="icon-device-desktop"></span> Web Site</a>
+			<br>
+		</div>
+		<!-- Modal trello -->
+		<div class="remodal" data-remodal-id="modal11" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>trello</h3>
+				<p>This project is a replica and simulation of the project managment tool, Trello, and some of it's basic functions like: add a list, add a card, drag and drop cards. Developed with HTML5, CSS3, Bootstrap and vanilla JS. </p>
+				<a class="waves-effect waves-light btn" href="https://github.com/fatimajr/eventos-js-trello" target="_blank"><span class="icon-code"></span> Code</a>
+  				<a class="waves-effect waves-light btn" href="https://fatimajr.github.io/eventos-js-trello/" target="_blank"><span class="icon-device-desktop"></span> Web Site</a>
+			<br>
+		</div>
+		<!-- Modal lyft -->
+		<div class="remodal" data-remodal-id="modal12" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>lyft</h3>
+				<p>This project is a replica and simulation of some Lyft mobile application's functions. The main objective of this project was learn and use jQuery, Google Maps geolocation API, save user's data and validate form fields. Developed with HTML5, CSS3, Materialize and jQuery.</p>
+				<a class="waves-effect waves-light btn" href="https://github.com/fatimajr/lyft-app" target="_blank"><span class="icon-code"></span> Code</a>
+  				<a class="waves-effect waves-light btn" href="https://fatimajr.github.io/lyft-app/" target="_blank"><span class="icon-device-desktop"></span> Web Site</a>
+			<br>
+		</div>
 	</div>
 	<div class="contact-section" id="contact">
 		<div class="contact fadeRight">
- 			<img class="responsive-img" src="img/contact2.png" alt="">
+ 			<img class="responsive-img" src="img/contact.png" alt="">
  		</div>
  		<span class="icon-minus"></span><br>
 		<span class="call">So call me maybe?</span><br>
@@ -291,12 +343,15 @@
 			<a class="waves-effect waves-light btn"><span class="icon-download-outline"></span> Download my CV</a>
 		</div>
 	</div>
-	<div class="footer center-align">
-		<span>Designed & Developed by Fátima Jácobo with</span> <span class="icon-heart2"></span>
+	<div class="top">
+		<a class="right" href="#home"><span class="icon-arrow-up"></span></span><span class="right">home</span></a>
 	</div>
+	<div class="footer center-align footer-copyright">
+        	<span class="center">Designed & Developed by Fátima Jácobo with</span> <span class="icon-heart2"></span>
+    </div>
 	<script type='text/javascript' src='js/vendor/jquery-3.1.1.js'></script>
 	<script type="text/javascript" src="js/vendor/materialize.js"></script>
-	<script src="js/vendor/dist/remodal.js"></script>
+	<script src="js/vendor/remodal/remodal.min.js"></script>
     <script type="text/javascript" src="js/main.js" ></script>    
 	<script src="js/vendor/viewportchecker.js"></script>
 	<script type="text/javascript" src="js/vendor/letters.js" ></script>

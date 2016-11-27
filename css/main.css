@@ -4,6 +4,11 @@ body{
     font-family: questrial;
 }
 
+@font-face {
+    font-family: Original by fnkfrsh;
+    src: url("vendor/fonts/original/Original by fnkfrsh.otf") format("opentype");
+}
+
 .intro{
     background: url(../img/inicio.jpg);
     background-size: cover;
@@ -91,6 +96,7 @@ a.line{
 
 a{
     cursor:pointer;
+    color: #fff;
 }
 
 a.line:hover{
@@ -114,11 +120,10 @@ div#menu{
     font-size: 4rem;
     position: relative;
     top: 40vh;
-    color: #63222a;
 }
 
 .arrow-b a{
-    color:#63222a;;
+    color:#63222a;
 }
 
 .about{
@@ -169,7 +174,10 @@ div#menu{
 .contact-section{
     padding-top: 6vh;
     text-align: center;
-    padding-bottom: 10vh;
+}
+
+.contact{
+    padding-left: 8vh;
 }
 
 span.call{
@@ -188,9 +196,19 @@ span.call{
     padding-bottom: 4vh;
     font-family: Original by fnkfrsh;
 }
+
 .lista a{
     color: #fff;
     font-size: 1.1rem;
+}
+
+.lista li{
+    display: inline-block;
+    padding: .5vh 1vh;
+    cursor: default;
+}
+.lista span{
+    font-size: 1.3em;
 }
 
 .modal-content{
@@ -412,14 +430,16 @@ span.call{
 .footer{
     background:#321117;
     padding:1vh;
+    padding-left: 12vh;
 }
+
 div.remodal{
     background: #dadada;
     color: ;
 }
 
 div.remodal-overlay{
-    background:rgba(56, 23, 28, 0.82);
+    background-color: rgba(56, 22, 22, 0.96);
 }
 
 div.remodal p{
@@ -428,6 +448,15 @@ div.remodal p{
 
 div.remodal h3{
     font-family: Original by fnkfrsh;
+    color: #321117;
+}
+
+.remodal a{
+    background-color: #321117;
+}
+
+.remodal a.btn:hover{
+    background-color: #321117;
 }
 
 .language{
@@ -439,6 +468,15 @@ div.remodal h3{
 }
 
 div.language a{
+    color: #fff;
+}
+.top{
+    padding:2vh;
+    font-family: Original by fnkfrsh;
+}
+.top a{
+    position: relative;
+    top: 3vh;
     color: #fff;
 }
 
@@ -461,5 +499,11 @@ div.language a{
         bottom: 9vh;
         font-size: 1.2rem;
         font-family: Original by fnkfrsh;
+    }
+    .social-net{
+        top:58vh;
+    }
+    .footer{
+        padding-left: 0;
     }
 }
