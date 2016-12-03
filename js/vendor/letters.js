@@ -5,7 +5,7 @@ function runTyping() {
 		var deleteAfter = 1000; // 1 second
 		var items = [
 		  "I CODE COOL WEBSITES",
-		  "I LIKE READ BOOKS",
+		  "I LIKE READING BOOKS",
 		  "I LOVE DESIGN",
 		  "I ENJOY LEARNING",
 		  "I AM A DOG LOVER"
