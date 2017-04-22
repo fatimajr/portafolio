@@ -161,12 +161,11 @@ div#menu{
 
 .t-who p{
     padding: 0vh 3vh;
-    text-align: justify;
     font-size: 1.16em;
 }
 
 .skills{
-    padding-top: 15vh;
+    padding-top: 5vh;
     text-align: center;
     padding-bottom: 5vh;
    /* background:#181531;*/

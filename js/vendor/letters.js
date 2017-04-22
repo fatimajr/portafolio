@@ -7,8 +7,7 @@ function runTyping() {
 		  "I CODE COOL WEBSITES",
 		  "I LIKE READING BOOKS",
 		  "I LOVE DESIGN",
-		  "I ENJOY LEARNING",
-		  "I AM A DOG LOVER"
+		  "I ENJOY LEARNING"
 		];
 		var sentence = 0;
 		var currentChar = 0;
